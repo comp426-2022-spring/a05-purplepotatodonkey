@@ -15,7 +15,7 @@
       "setup": "",
       "run": "NLIN=$(grep -c '^' public/index.html) && if [ \"$NLIN\" -gt \"49\" ]; then echo \"GOOD\"; fi",
       "input": "",
-      "output": "style.css",
+      "output": "GOOD",
       "comparison": "included",
       "timeout": 10,
       "points": 10000
