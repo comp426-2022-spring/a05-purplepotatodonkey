@@ -8,67 +8,7 @@
       "output": "<!DOCTYPE html>",
       "comparison": "included",
       "timeout": 10,
-      "points": 15000
-    },
-    {
-      "name": "HTML check edit",
-      "setup": "",
-      "run": "NLIN=$(grep -c '^' public/index.html) && if [ \"$NLIN\" -gt \"49\" ]; then echo \"GOOD\"; fi",
-      "input": "",
-      "output": "GOOD",
-      "comparison": "included",
-      "timeout": 10,
-      "points": 10000
-    },
-    {
-      "name": "JS Check edit",
-      "setup": "",
-      "run": "NLIN=$(grep -c '^' public/main.js) && if [ \"$NLIN\" -gt \"8\" ]; then echo \"GOOD\"; fi",
-      "input": "",
-      "output": "GOOD",
-      "comparison": "included",
-      "timeout": 10,
-      "points": 10000
-    },
-    {
-      "name": "Database service location",
-      "setup": "",
-      "run": "ls src/services",
-      "input": "",
-      "output": "database.js",
-      "comparison": "included",
-      "timeout": 10,
-      "points": 10000
-    },
-    {
-      "name": "Data directory created",
-      "setup": "",
-      "run": "ls",
-      "input": "",
-      "output": "data",
-      "comparison": "included",
-      "timeout": 10,
-      "points": 10000
-    },
-    {
-      "name": "Log directory created",
-      "setup": "",
-      "run": "ls",
-      "input": "",
-      "output": "log",
-      "comparison": "included",
-      "timeout": 10,
-      "points": 10000
-    },
-    {
-      "name": "README",
-      "setup": "",
-      "run": "NLIN=$(grep -c '^' README.md) && if [ \"$NLIN\" -ne \"363\" ]; then echo \"GOOD\"; fi",
-      "input": "",
-      "output": "GOOD",
-      "comparison": "included",
-      "timeout": 10,
-      "points": 10000
+      "points": 75000
     }
   ]
 }
