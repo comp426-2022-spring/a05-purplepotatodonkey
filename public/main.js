@@ -34,7 +34,7 @@ async function flipCoins(event) {
 	event.preventDefault();
 // Build up the endpoint URL
 	const endpoint = "app/flip/coins/"
-	const url = document.baseURI+endpoint
+	const url = document.baseURI + "app/flip/coins/"
 // This extracts the data object from the form so we can run it through the FormData API
 	const formEvent = event.currentTarget
 // Give the data to FormData and wait for a response or log an error to console.
