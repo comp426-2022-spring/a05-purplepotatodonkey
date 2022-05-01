@@ -6,7 +6,6 @@ coin.addEventListener("click", flipCoin)
 // Set up an asynchronous function so that it will await a response.
 async function flipCoin() {
 // Build up the endpoint URL
-    const endpoint = "app/flip/"
 // DOM knows what the URI is so that we don't have to hard code it.
     const url = document.baseURI + "app/flip/"
 // This sends a GET request to the API endpoint and waits for a response
@@ -33,7 +32,6 @@ async function flipCoins(event) {
 // Because we are using an event, we need to remove the default browser event, which is a reload.
 	event.preventDefault();
 // Build up the endpoint URL
-	const endpoint = "app/flip/coins/"
 	const url = document.baseURI + "app/flip/coins/"
 // This extracts the data object from the form so we can run it through the FormData API
 	const formEvent = event.currentTarget
@@ -64,7 +62,6 @@ async function flipCall(event) {
 // Prevent the default reload on event.
 	event.preventDefault();
 // Build the url string.
-	const endpoint = "app/flip/call/"
 	const url = document.baseURI+"app/flip/call/"
 // Extract the data from the form.
 	const formEvent = event.currentTarget
