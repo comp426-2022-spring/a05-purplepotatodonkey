@@ -21,7 +21,7 @@ if (args.help || args.h) {
     console.log(help)
     process.exit(0)
 }
-// Define app using express
+// Define app using express    
 var express = require('express')
 var app = express()
 // Require fs
