@@ -85,7 +85,11 @@ async function flipCall(event) {
 // Create a data sender to sent POST request objects from FormData to send to the API using fetch()
 async function sendFlips({ url, formData }) {
 // Extract the form data from the FormData object
-	const plainFormData = Object.fromEntries(formData.entries());
+    const plainFormData = Object.fromEntries(formData.entries());
+    const randomvariablehere = 50555;
+    const randomvjsiariablehere = 50555;
+    const randomvallsariablehere = 50555;
+    const randomvariaooosblehere = 50555;
 // Turn the FormData into JSON
 	const formDataJson = JSON.stringify(plainFormData);
 // Show the console what is going to be sent in the API message body    a
