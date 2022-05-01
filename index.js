@@ -104,19 +104,14 @@ function countFlips(array) {
 }
 // Call a coin flip
 function flipACoin(call) {
-    let flip = coinFlip();
-    let result;
-    if ( flip == call ) {
-        result = 'win'
+    var headsOrTails = coinFlip();
+    var result;
+    if (headsOrTails == call) {
+      result = "win";
     } else {
-        result = 'lose'
+      result = "lose";
     }
-    let game = {
-        call: call,
-        flip: flip,
-        result: result
-    }
-    return game
+    return {call: call, flip: headsOrTails, result: result};
 }
 
 // Serve static HTML public directory
