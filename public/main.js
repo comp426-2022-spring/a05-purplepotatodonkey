@@ -99,7 +99,7 @@ async function sendFlips({ url, formData }) {
 		},
 		body: formDataJson
 	};
-// Send the request and wait for the response
+// Send the request and wait for the response   
 	const response = await fetch(url, options);
 // Pass the response back to the event handler
 	return response.json()
