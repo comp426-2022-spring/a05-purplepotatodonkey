@@ -139,11 +139,10 @@ app.post('/app/flip/coins/', (req, res, next) => {
     res.status(200).json({"raw":flips,"summary":count})
 })
 
-app.get('/app/flips/:number', (req, res, next) => {
-    const flips = coinFlips(req.params.number)
-    const count = countFlips(flips)
-    res.status(200).json({"raw":flips,"summary":count})
-});
+app.get('/app/flips/:number', (req, res) => {
+    var flips = coinFlips(req.params.number);
+    res.status(200).json({ "raw" : flips, "summary" : countFlips(flips)})
+})
 
 app.post('/app/flip/call/', (req, res, next) => {
     const game = flipACoin(req.body.guess)
