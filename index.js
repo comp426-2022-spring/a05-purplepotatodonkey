@@ -82,12 +82,12 @@ function coinFlip() {
 }
 // Flip many coins
 function coinFlips(flips) {
-    let array = [];
-    for (let i = 1; i <= flips; i++) {
-        array.push(coinFlip());
+    var arr = [];
+    for (var i = 0; i < flips; i++) {
+      arr.push(coinFlip());
     }
-    return array;
-}
+    return arr;
+  }
 // Count coin flips
 function countFlips(array) {
     let counter = {};
