@@ -125,10 +125,9 @@ app.get("/app/", (req, res, next) => {
 
 // Endpoint /app/flip/ that returns JSON {"flip":"heads"} or {"flip":"tails"} 
 // corresponding to the results of the random coin flip.
-app.get('/app/flip/', (req, res) => {
-    const flip = coinFlip()
-    res.status(200).json({ "flip" : flip })
-});
+app.get('/app/flip', (req, res) => {
+    res.status(200).json({ "flip" : coinFlip()})
+})
 
 app.post('/app/flip/coins/', (req, res, next) => {
     const flips = coinFlips(req.body.number)
