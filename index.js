@@ -118,10 +118,14 @@ function flipACoin(call) {
 app.use(express.static('./public'))
 
 // READ (HTTP method GET) at root endpoint /app/
-app.get("/app/", (req, res, next) => {
-    res.json({"message":"Your API works! (200)"});
-	res.status(200);
-});
+app.get('/app', (req, res) => {
+    // Respond with status 200   
+        res.statusCode = 200;
+    // Respond with status message "OK"
+        res.statusMessage = 'OK';
+        res.writeHead( res.statusCode, { 'Content-Type' : 'text/plain' });
+        res.end(res.statusCode+ ' ' +res.statusMessage)
+})
 
 // Endpoint /app/flip/ that returns JSON {"flip":"heads"} or {"flip":"tails"} 
 // corresponding to the results of the random coin flip.
