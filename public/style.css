@@ -6,7 +6,7 @@ button.active {
 }
 /* This shows the active div. */
 div.active {
-/*  border: 5px solid red; */
+  border: 5px solid red;
   display: block;
 }
 /* This hides the inactive divs */
