@@ -90,15 +90,17 @@ function coinFlips(flips) {
 }
 // Count coin flips
 function countFlips(array) {
-    let counter = {};
-    array.forEach(item => {
-        if (counter[item]) {
-            counter[item]++;
-        } else {
-            counter[item] = 1;
-        }
-    });
-    return counter;
+    var headNum = 0;
+    var tailNum = 0;
+    for (var i = 0; i < array.length; i++) {
+      if (array[i] == "heads") {
+        headNum++;
+      } else {
+        tailNum++;
+      }
+    }
+
+    return {heads: headNum, tails: tailNum};
 }
 // Call a coin flip
 function flipACoin(call) {
