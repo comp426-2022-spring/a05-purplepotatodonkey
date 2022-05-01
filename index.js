@@ -33,7 +33,7 @@ const logdb = require('./src/services/database.js')
 // Make Express use its own built-in body parser     
 // Allow urlencoded body messages
 //app.use(express.urlencoded({ extended: true }));
-// Allow json body messages   
+// Allow json body messages      
 app.use(express.json());
 // Server port
 const port = args.port || args.p || process.env.PORT || 5000
