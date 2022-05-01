@@ -30,7 +30,7 @@ const fs = require('fs')
 const morgan = require('morgan')
 // Require database SCRIPT file
 const logdb = require('./src/services/database.js')
-// Make Express use its own built-in body parser
+// Make Express use its own built-in body parser     
 // Allow urlencoded body messages
 //app.use(express.urlencoded({ extended: true }));
 // Allow json body messages
