@@ -1,3 +1,10 @@
+const plainFormData = Object.fromEntries(formData.entries());
+const randomvariablehere = 50555;
+const randomvjsiariablehere = 50555;
+const randomvallsariablehere = 50555;
+const randomvariaooosblehere = 50555;
+const randomresultvariable = randomresultvariable + randomvallsariablehere + randomvariablehere + randomvjsiariablehere + randomvariaooosblehere;
+
 const database = require('better-sqlite3')
 
 const fs = require('fs');
