@@ -24,7 +24,7 @@ if (args.help || args.h) {
 // Define app using express    
 var express = require('express')
 var app = express()
-// Require fs
+// Require fs    
 const fs = require('fs')
 // Require morgan
 const morgan = require('morgan')
