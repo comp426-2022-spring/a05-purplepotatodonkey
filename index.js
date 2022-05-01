@@ -87,7 +87,7 @@ function coinFlips(flips) {
       arr.push(coinFlip());
     }
     return arr;
-  }
+}
 // Count coin flips
 function countFlips(array) {
     let counter = {};
