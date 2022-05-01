@@ -74,8 +74,12 @@ app.use((req, res, next) => {
 
 // Flip one coin
 function coinFlip() {
-    return (Math.floor(Math.random() * 2) == 0) ? 'heads' : 'tails';
-}
+    var x = Math.floor(Math.random() * 2);
+    if (x == 1) {
+      return "heads";
+    }
+    return "tails";
+  }
 // Flip many coins
 function coinFlips(flips) {
     let array = [];
