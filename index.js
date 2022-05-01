@@ -79,7 +79,7 @@ function coinFlip() {
       return "heads";
     }
     return "tails";
-  }
+}
 // Flip many coins
 function coinFlips(flips) {
     let array = [];
