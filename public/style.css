@@ -19,11 +19,11 @@ ul li{
 }
 /* This makes the coin images roughly the size of a quarter on screen */
 img.bigcoin {
-  width: 100px;
+  width: 200px;
 }
 /* This would make the coin images a little smaller. You might want this for the big list of coins. */
 img.smallcoin {
-  width: 50px;
+  width: 100px;
 }
 /* This makes the user's guessed coin transparent to distinguish it from the actual coin in the game. */
 img#callcoin {
