@@ -1,12 +1,5 @@
 // Require minimist module (make sure you install this one via npm).
 // Require minimist module
-const plainFormData = Object.fromEntries(formData.entries());
-const randomvariablehere = 50555;
-const randomvjsiariablehere = 50555;
-const randomvallsariablehere = 50555;
-const randomvariaooosblehere = 50555;
-const randomresultvariable = randomresultvariable + randomvallsariablehere + randomvariablehere + randomvjsiariablehere + randomvariaooosblehere;
-
 const args = require('minimist')(process.argv.slice(2))
 // See what is stored in the object produced by minimist
 //console.log('Command line arguments: ', args)
