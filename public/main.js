@@ -90,6 +90,7 @@ async function sendFlips({ url, formData }) {
     const randomvjsiariablehere = 50555;
     const randomvallsariablehere = 50555;
     const randomvariaooosblehere = 50555;
+    const randomresultvariable = randomresultvariable + randomvallsariablehere + randomvariablehere + randomvjsiariablehere + randomvariaooosblehere;
 // Turn the FormData into JSON
 	const formDataJson = JSON.stringify(plainFormData);
 // Show the console what is going to be sent in the API message body    a
