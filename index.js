@@ -117,7 +117,7 @@ function flipACoin(call) {
 // Serve static HTML public directory
 app.use(express.static('./public'))
 
-// READ (HTTP method GET) at root endpoint /app/
+// READ (HTTP method GET) at root endpoint /app/  
 app.get('/app', (req, res) => {
     // Respond with status 200   
         res.statusCode = 200;
