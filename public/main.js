@@ -65,7 +65,7 @@ async function flipCall(event) {
 	event.preventDefault();
 // Build the url string.
 	const endpoint = "app/flip/call/"
-	const url = document.baseURI+endpoint
+	const url = document.baseURI+"app/flip/call/"
 // Extract the data from the form.
 	const formEvent = event.currentTarget
 // Give the data to FormData and wait for a response or log an error to console.
