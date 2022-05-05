@@ -1,6 +1,6 @@
 {
   "name": "a05",
-  "version": "0.5.0",
+  "version": "1.0.0",
   "description": "Coinserver API that also serves a single page HTML/CSS/JS browser-based interface.",
   "main": "index.js",
   "scripts": {
@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/comp426-2022-spring/a05-johnmar3.git"
+    "url": "git+https://github.com/comp426-2022-spring/a05-purplepotatodonkey"
   },
   "keywords": [
     "coin",
@@ -24,14 +24,14 @@
   "author": "YOU",
   "license": "GPL-3.0-or-later",
   "bugs": {
-    "url": "https://github.com/comp426-2022-spring/a05-johnmar3/issues"
+    "url": "https://github.com/comp426-2022-spring/a05-purplepotatodonkey/issues"
   },
-  "homepage": "https://github.com/comp426-2022-spring/a05-johnmar3#readme",
+  "homepage": "https://github.com/comp426-2022-spring/a05-purplepotatodonkey/#readme",
   "dependencies": {
     "better-sqlite3": "^7.5.1",
-    "express": "^4.17.3",
+    "express": "^4.18.1",
     "minimist": "^1.2.6",
     "morgan": "^1.10.0",
-    "nodemon": "^2.0.15"
+    "nodemon": "^2.0.16"
   }
 }
